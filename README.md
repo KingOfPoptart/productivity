@@ -1,5 +1,5 @@
 # productivity
-Block all that crap getting in your way
+Block all that crap getting in your way by blocking them in your /etc/hosts file
 
 
 ```
@@ -12,5 +12,8 @@ sudo ln -s $(realpath ./productivity/productivity.sh) /usr/bin/productivity
 sudo productivity
 #If not
 sudo ./productivity/productivity.sh
+
+
+#To unblock the sites you'll need to edit your /etc/hosts files and remove the added entries
 
 ```
